@@ -27,13 +27,13 @@ DEFAULT_PREFERENCE_olinuxino-a20lime2="1"
 DEFAULT_PREFERENCE_olinuxino-a20som="1"
 DEFAULT_PREFERENCE_pcduino-lite-wifi="1"
 
-SRC_URI = "git://github.com/linux-sunxi/u-boot-sunxi.git;protocol=git;branch=sunxi"
+SRC_URI = "git://github.com/geomatsi/u-boot-sunxi.git;protocol=git;branch=sunxi"
 
 PE = "1"
 
 PV = "v2014.04+git${SRCPV}"
 # Corresponds 2014.04 in Makefile
-SRCREV = "ea1ac32bf76eb60baef474c2516fc431b381d952"
+SRCREV = "de4fddc5f7f9b077b9bbe77f60096d8b1eafba09"
 
 S = "${WORKDIR}/git"
 

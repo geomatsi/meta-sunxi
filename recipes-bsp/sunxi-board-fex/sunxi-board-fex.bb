@@ -9,9 +9,9 @@ PR = "r0"
 
 COMPATIBLE_MACHINE = "(bananapi|cubieboard|cubieboard2|cubietruck|forfun-q88db|mele|meleg|olinuxino-a10|olinuxino-a10lime|olinuxino-a10s|olinuxino-a13|olinuxino-a13som|olinuxino-a20|olinuxino-a20lime|olinuxino-a20lime2|olinuxino-a20som|pcduino-lite-wifi)"
 
-SRC_URI = "git://github.com/linux-sunxi/sunxi-boards.git;protocol=git"
+SRC_URI = "git://github.com/geomatsi/sunxi-boards.git;protocol=git"
 # Increase PV with SRCREV change
-SRCREV = "bf02cb81d1fe5996758322dc74e66808c1c7ad38"
+SRCREV = "2cc6e7e90b2eca65a937c2003268f188feeb7692"
 
 S = "${WORKDIR}/git"
 SUNXI_FEX_FILE_bananapi = "sys_config/a20/Bananapi.fex"
