@@ -123,6 +123,10 @@ do_configure_append() {
     fi
 }
 
+do_install_prepend() {
+	install -d ${D}/lib/firmware
+}
+
 do_install_append() {
     oe_runmake headers_install INSTALL_HDR_PATH=${D}${exec_prefix}/src/linux-${KERNEL_VERSION} ARCH=$ARCH
 }
